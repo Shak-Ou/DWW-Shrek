@@ -1,32 +1,51 @@
+#container{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 50vh;
+
+
+    /*display flex with the key word to setup autolayout*/
+    display: flex;
+    /*what direction the children will face*/
+    flex-direction: row;
+
+    /*Place the boxes in the center of the page*/
+    justify-content: center;
+    align-items: center;
+
+    /*Place a gap between the boxes*/
+    gap: 20px;
+
+}
+
 body{
-    background-color: #FEF5DB;
-}
-
-p{
-    color: #224B29;
-    font-size: 29px;
-    font-weight: Bold;
+    width: 100vw;
+    height: 100vh;
 
 }
-li{
-    color: black;
+.box{
+    background-color: #888888;
+    width: 200px;
+    height: 200px;
 
 }
-#Pasta{
-    color: #224B29;
-    font-size: 24px;
-    font-weight: Bold;
-}
+/* a class to style the movies cards */
+.card{
+    /* set a backgroudn color*/
+    background-color: #C9E39A;
+    /*internal padding all around*/
+    padding: 16px;
+    /* add round corner*/
+    border-radius: 8px;
 
-.black-bg{
-    background-color:black;
-    color:white;
-
-    padding: 0px 32px;
-    margin: 0px;
-
+    width: 20%;
 
 }
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-#bob{background-color:purple;
+    gap: 20px;
 }
