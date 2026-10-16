@@ -1,0 +1,32 @@
+body{
+    background-color: #FEF5DB;
+}
+
+p{
+    color: #224B29;
+    font-size: 29px;
+    font-weight: Bold;
+
+}
+li{
+    color: black;
+
+}
+#Pasta{
+    color: #224B29;
+    font-size: 24px;
+    font-weight: Bold;
+}
+
+.black-bg{
+    background-color:black;
+    color:white;
+
+    padding: 0px 32px;
+    margin: 0px;
+
+
+}
+
+#bob{background-color:purple;
+}
